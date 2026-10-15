@@ -37,7 +37,7 @@ export default {
 	'editorGroupHeader.tabsBackground': gray.dusk,
 	'editorGroup.dropBackground': alpha(rose.plum, 0.4),
 	'tab.border': gray.dusk,
-	'tab.activeForeground': rose.flamingo,
+	'tab.activeForeground': rose.salmon,
 	'tab.inactiveBackground': gray.dusk, // #422d3d
 	'tab.inactiveForeground': rose.mauve,
 	'panel.border': gray.ash,
@@ -103,17 +103,17 @@ export default {
 	'notifications.foreground': white,
 	'notificationCenter.border': gray.dusk,
 	'notificationCenterHeader.background': gray.dusk,
-	'notificationLink.foreground': rose.hotPink,
+	'notificationLink.foreground': rose.cerise,
 
 	// scrollbar
 	'scrollbarSlider.background': alpha(rose.petal, 0.28),
 	'scrollbarSlider.hoverBackground': alpha(rose.petal, 0.4),
-	'scrollbarSlider.activeBackground': alpha(rose.shell, 0.53),
+	'scrollbarSlider.activeBackground': alpha(rose.petal, 0.53),
 
 	// editor
 	'editor.background': editorBackground,
 	'editor.foreground': rose.lavenderBlush,
-	'editorCursor.foreground': rose.pearl,
+	'editorCursor.foreground': rose.lavenderBlush,
 	'editor.lineHighlightBackground': rose.aubergine,
 	'editor.lineHighlightBorder': rose.aubergine, // "#6e1148" "#472541"
 	'editor.selectionBackground': rose.wine,
@@ -185,7 +185,7 @@ export default {
 	// integrated terminal
 	'terminal.foreground': rose.lavenderBlush,
 	'terminal.selectionBackground': rose.wine,
-	'terminalCursor.foreground': rose.pearl,
+	'terminalCursor.foreground': rose.lavenderBlush,
 	'terminal.ansiBlack': gray.night,
 	'terminal.ansiRed': material.red,
 	'terminal.ansiGreen': syntax.function,

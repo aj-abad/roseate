@@ -1,7 +1,7 @@
 // TextMate syntax rules: https://code.visualstudio.com/api/extension-guides/color-theme#syntax-colors
 
 import { alpha } from './color.mjs';
-import { black, white, rose, syntax, material, log } from './palette.mjs';
+import { black, white, rose, status, syntax, material, log } from './palette.mjs';
 
 // JSON keys get a different color at each nesting level.
 const jsonKeyColors = [
@@ -116,7 +116,7 @@ export default [
 			'keyword.other.unit',
 			'keyword.other',
 		],
-		settings: { foreground: syntax.constant },
+		settings: { foreground: rose.cerise },
 	},
 	{
 		name: 'String, Symbols, Inherited Class, Markup Heading',
@@ -368,7 +368,7 @@ export default [
 	},
 	{ scope: 'token.info-token', settings: { foreground: log.info } },
 	{ scope: 'token.warn-token', settings: { foreground: log.warn } },
-	{ scope: 'token.error-token', settings: { foreground: log.error } },
+	{ scope: 'token.error-token', settings: { foreground: status.error } },
 	{ scope: 'token.debug-token', settings: { foreground: log.debug } },
 	{
 		name: 'C include',

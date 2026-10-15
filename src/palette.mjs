@@ -29,23 +29,19 @@ export const rose = {
 	raspberry: '#c8426f', // button hover
 	orchid: '#db45a2', // strong word highlight
 	magenta: '#e02eb4', // peek view border
-	cerise: '#ee3b9a', // links, progress, active indicators
-	hotPink: '#ff43a1', // notification links
+	cerise: '#ee3b9a', // links, progress, active indicators, numbers and constants
 	neon: '#ff1c73', // status bar while debugging
 	pink: '#ff82cb', // light accent
-	salmon: '#fe7c8e', // extension buttons
-	flamingo: '#fe7cae', // active tab text
+	salmon: '#fe7c8e', // extension buttons, active tab text
 	mauve: '#c599af', // inactive text
-	shell: '#e9a6b2', // scrollbar while dragging
 	petal: '#f3b4bf', // scrollbar
 	blush: '#fde3e8', // UI text
-	pearl: '#ffedf0', // cursors
-	lavenderBlush: '#fff0f5', // editor text
+	lavenderBlush: '#fff0f5', // editor text, cursors
 };
 
 /** Editor diagnostics and search. */
 export const status = {
-	error: '#ff4e47',
+	error: '#ff4e47', // also error lines in output logs
 	warning: '#1df5bf',
 	link: '#3b79c7',
 	findMatch: '#f39d12',
@@ -67,7 +63,6 @@ export const syntax = {
 	operator: '#d348a5',
 	storage: '#e276b5',
 	function: '#7cc9b2',
-	constant: '#ee3b9b',
 	string: '#c7b2a0',
 	class: '#ce81d8',
 	type: '#d6b2cb',
@@ -98,10 +93,9 @@ export const material = {
 	blueLight: '#a6c4ff',
 };
 
-/** VS Code's default colors for output-channel log tokens. */
+/** VS Code's default colors for output-channel log tokens (errors use status.error). */
 export const log = {
 	info: '#6796e6',
 	warn: '#cd9731',
-	error: '#f44747',
 	debug: '#b267e6',
 };

@@ -27,7 +27,7 @@
 		"editorGroupHeader.tabsBackground": "#302d36",
 		"editorGroup.dropBackground": "#6e3a5266",
 		"tab.border": "#302d36",
-		"tab.activeForeground": "#fe7cae",
+		"tab.activeForeground": "#fe7c8e",
 		"tab.inactiveBackground": "#302d36",
 		"tab.inactiveForeground": "#c599af",
 		"panel.border": "#4f4355",
@@ -81,13 +81,13 @@
 		"notifications.foreground": "#ffffff",
 		"notificationCenter.border": "#302d36",
 		"notificationCenterHeader.background": "#302d36",
-		"notificationLink.foreground": "#ff43a1",
+		"notificationLink.foreground": "#ee3b9a",
 		"scrollbarSlider.background": "#f3b4bf47",
 		"scrollbarSlider.hoverBackground": "#f3b4bf66",
-		"scrollbarSlider.activeBackground": "#e9a6b287",
+		"scrollbarSlider.activeBackground": "#f3b4bf87",
 		"editor.background": "#2c2833",
 		"editor.foreground": "#fff0f5",
-		"editorCursor.foreground": "#ffedf0",
+		"editorCursor.foreground": "#fff0f5",
 		"editor.lineHighlightBackground": "#502b3c",
 		"editor.lineHighlightBorder": "#502b3c",
 		"editor.selectionBackground": "#792548",
@@ -156,7 +156,7 @@
 		"chat.slashCommandForeground": "#ff82cb",
 		"terminal.foreground": "#fff0f5",
 		"terminal.selectionBackground": "#792548",
-		"terminalCursor.foreground": "#ffedf0",
+		"terminalCursor.foreground": "#fff0f5",
 		"terminal.ansiBlack": "#2c2833",
 		"terminal.ansiRed": "#ff5370",
 		"terminal.ansiGreen": "#7cc9b2",
@@ -317,7 +317,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#ee3b9b"
+				"foreground": "#ee3b9a"
 			}
 		},
 		{
@@ -832,7 +832,7 @@
 		{
 			"scope": "token.error-token",
 			"settings": {
-				"foreground": "#f44747"
+				"foreground": "#ff4e47"
 			}
 		},
 		{
