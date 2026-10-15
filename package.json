@@ -8,6 +8,9 @@
     "engines": {
         "vscode": "^1.21.0"
     },
+    "scripts": {
+        "build": "node scripts/build.mjs"
+    },
     "categories": [
         "Themes"
     ],

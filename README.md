@@ -7,6 +7,12 @@ Aimed to make my C++ code prettier; or, really, just so it goes well with all th
 
 ---
 
+### Editing the theme
+
+`themes/Roseate-color-theme.json` is generated. Colors are named in `src/palette.mjs`, `src/color.mjs` has the `alpha()` and `over()` modifiers, and `src/colors.mjs` and `src/tokens.mjs` map them onto UI and syntax. After editing, run `npm run build`.
+
+---
+
 ### Licensed under WTFPL  
 
 > Copyleft (&#8580;) 2018 Emilia "Endorfina" Majewska  
