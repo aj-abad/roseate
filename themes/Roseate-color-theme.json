@@ -40,21 +40,20 @@
 		"sideBar.background": "#302d36",
 		"tab.inactiveBackground": "#302d36", //#422d3d
         "editorWhitespace.foreground": "#8f404d",
-        "editorIndentGuide.background": "#302d36",
 		"editorGroupHeader.tabsBackground": "#302d36",
 
 
         "editorLineNumber.foreground": "#7e6f7b",
         "editor.selectionBackground": "#792548",
         "editor.selectionHighlightBackground": "#4F435580",
-        "editor.wordHighlightBackground": "#4F4355",
+        "editor.wordHighlightBackground": "#584a5dcc",
         "editor.wordHighlightStrongBackground": "#db45a280",
         "editor.findMatchBackground": "#f39d12d7",
         "editor.findMatchHighlightBackground": "#59b8b377",
-        "editor.hoverHighlightBackground": "#373941",
+        "editor.hoverHighlightBackground": "#3a3d45cc",
 		
         "editorLink.activeForeground": "#3B79C7",
-        "editor.rangeHighlightBackground": "#372F3C",
+        "editor.rangeHighlightBackground": "#3a313ecc",
         "editorRuler.foreground": "#4F4355",
         "editorCodeLens.foreground": "#746f77",
         "editorBracketMatch.background": "#746f77",
@@ -149,8 +148,8 @@
 
 		// editor: selection, minimap, inline decorations
 		"editor.inactiveSelectionBackground": "#79254888",
-		"minimap.selectionHighlight": "#792548",
-		"minimap.selectionOccurrenceHighlight": "#4F4355",
+		"minimap.selectionHighlight": "#8c244dcc",
+		"minimap.selectionOccurrenceHighlight": "#584a5dcc",
 		"editorInlayHint.background": "#502b3c88",
 		"editorInlayHint.foreground": "#c599af",
 		"editorGhostText.foreground": "#8f6f80",
@@ -209,8 +208,7 @@
 	"tokenColors": [
 		{
 			"settings": {
-				"foreground": "#e0e0e0",
-				"background": "#263238ff"
+				"foreground": "#e0e0e0"
 			}
 		},
 		{
@@ -365,7 +363,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"fontStyle": "normal",
+				"fontStyle": "",
 				"foreground": "#c7b2a0"
 			}
 		},
@@ -674,15 +672,6 @@
 			}
 		},
 		{
-			"name": "Markdown - Line Break",
-			"scope": [
-				"text.html.markdown meta.dummy.line-break"
-			],
-			"settings": {
-				"foreground": ""
-			}
-		},
-		{
 			"name": "Markdown - Heading",
 			"scope": [
 				"markdown.heading",
@@ -745,8 +734,7 @@
 				"markup.strike"
 			],
 			"settings": {
-				"fontStyle": "strike",
-				"foreground": ""
+				"fontStyle": "strikethrough"
 			}
 		},
 		{
@@ -755,7 +743,6 @@
 				"markup.quote punctuation.definition.blockquote.markdown"
 			],
 			"settings": {
-				"background": "#65737E",
 				"foreground": "#65737E"
 			}
 		},
@@ -765,8 +752,7 @@
 				"markup.quote"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": ""
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -850,7 +836,6 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"background": "#00000050",
 				"foreground": "#65737E"
 			}
 		},
@@ -906,7 +891,7 @@
 			],
 			"settings": {
 				//"foreground": "#FF0000",
-				"fontStyle": "normal"
+				"fontStyle": ""
 			}
 		},
 		{
