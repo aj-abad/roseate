@@ -21,7 +21,7 @@ export default {
 	'settings.modifiedItemIndicator': rose.cerise,
 
 	// activity bar
-	'activityBar.background': rose.aubergine, // #33222c
+	'activityBar.background': gray.dusk,
 	'activityBar.foreground': rose.blush,
 	'activityBar.inactiveForeground': rose.mauve,
 	'activityBar.activeBorder': rose.cerise,
@@ -44,11 +44,11 @@ export default {
 	'panelTitle.activeForeground': white,
 
 	// title bar, command center, menus
-	'titleBar.activeBackground': rose.plum,
+	'titleBar.activeBackground': gray.dusk,
 	'titleBar.activeForeground': rose.blush,
-	'titleBar.inactiveBackground': rose.aubergine,
+	'titleBar.inactiveBackground': gray.night,
 	'titleBar.inactiveForeground': rose.mauve,
-	'commandCenter.background': rose.aubergine,
+	'commandCenter.background': gray.night,
 	'commandCenter.foreground': rose.blush,
 	'commandCenter.activeBackground': alpha(rose.crimson, 0.33),
 	'commandCenter.border': alpha(white, 0.1),
@@ -58,9 +58,10 @@ export default {
 	'menu.separatorBackground': gray.ash,
 
 	// status bar
-	'statusBar.background': rose.plum,
+	'statusBar.background': gray.dusk,
+	'statusBar.foreground': rose.mauve,
 	'statusBar.debuggingBackground': rose.neon,
-	'statusBar.noFolderBackground': rose.plum,
+	'statusBar.noFolderBackground': gray.dusk,
 	'statusBarItem.remoteBackground': rose.crimson,
 	'statusBarItem.remoteForeground': white,
 	'debugToolBar.background': gray.dusk,
